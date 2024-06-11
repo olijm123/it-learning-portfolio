@@ -1,0 +1,178 @@
+body {
+  margin-left: 20px !important;
+}
+
+#titleOfPage {
+  color: darkgreen;
+  font-family: "Arial", "Courier";
+  text-align: center;
+}
+
+.language {
+  color: darkgreen;
+  font-weight: 700;
+}
+
+.breadcrumb {
+  background-color: green;
+  color: white;
+  max-width: max-content;
+  padding: 10px;
+  margin-left: 300px;
+
+  margin-bottom: 30px;
+}
+
+.tipText {
+    color:black;
+}
+
+.bcLink {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb:hover {
+  background-color: darkorange;
+}
+
+#clickToApp {
+  font-size: 14pt;
+  background-color: rgb(28, 119, 30);
+  line-height: 2em;
+  color: white;
+}
+
+#clickToApp:hover {
+  background-color: darkorange;
+  text-decoration: underline;
+}
+
+#theLang {
+}
+
+#generatedLink {
+  color: rgb(246, 255, 255);
+}
+
+#generatedLink:hover {
+  color: darkgoldenrod;
+}
+div.app {
+  border-style: ridge;
+  border-width: 1px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(244, 250, 255);
+  max-width: 60%;
+  margin-left: 300px;
+}
+
+div.discoverMore {
+  background-color: rgb(24, 79, 59);
+  line-height: 2em;
+  margin-top: 40px;
+  max-width: ;
+}
+
+div.discoverMore > h3 {
+  color: white;
+}
+
+.tip {
+  max-width: max-content;
+
+  margin-left: 300px;
+}
+
+/*
+div.discoverMore > h4 {
+    color: white;
+}
+*/
+
+div.discoverMore > h3 > a {
+  color: white;
+}
+
+#allLangs {
+  border-style: groove;
+  display: none;
+  margin-left: 300px;
+  text-align: ;
+  font-family: "Arial", Courier, monospace;
+  font-size: 14pt;
+  list-style: ;
+  color: black;
+  padding: 30px;
+  line-height: 2em;
+  max-width: 839px;
+  background-color: white;
+}
+
+#languageIteration {
+  color: darkgreen;
+}
+h2 {
+  /*reduce size of the outputted h2*/
+  max-width: 900px;
+}
+/*
+@media only screen and (max-width: 500px) {
+  
+}
+*/
+
+@media only screen and (max-width: 800px) {
+  div.app {
+    border-style: ridge;
+    border-width: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(244, 250, 255);
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .tip {
+    max-width: max-content;
+
+    margin-left: 0px;
+  }
+
+  #allLangs {
+    border-style: groove;
+    display: none;
+
+    font-family: "Arial", Courier, monospace;
+    font-size: 13pt;
+    color: black;
+    padding: 10px;
+    line-height: 2em;
+    max-width: 100%;
+    margin-left: 0px;
+    background-color: white;
+  }
+
+  .breadcrumb {
+    background-color: green;
+    color: white;
+    max-width: max-content;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+/*
+@media only screen and (orientation: landscape) {
+
+}*/
+
+/*
+@media only screen and (min-width: 1000px) {
+
+}*/
+
+@media only screen and (min-width: 610px) {
+}
